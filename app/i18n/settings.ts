@@ -11,6 +11,7 @@ export const languages = [
   "zh-CN",
   "zh-TW",
   "es",
+  'vi'
 ] as const
 export type LocaleTypes = (typeof languages)[number]
 export const defaultNS = "translation"
